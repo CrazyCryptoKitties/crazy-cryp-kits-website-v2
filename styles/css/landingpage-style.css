@@ -1,0 +1,31 @@
+body {
+    background: url('/styles/imgs/landing-page-bg-ck.jpg') no-repeat center center fixed;
+    background-size: cover;
+    background-color: #a70e0e;
+    font-family: Comic Sans MS;
+}
+
+.carousel-img {
+    width: 20%; /* ensures it is responsive and scales with the container */
+    max-height: 400px; /* adjust this value based on your needs */
+    object-position: 50% 50%;
+    object-fit: none;
+    
+    /* this ensures the image covers the area appropriately without stretching */
+}
+#charactersCarousel{
+    max-width: 80%; /* or your desired width */
+    margin: 0 auto; /* Centers the carousel horizontally */
+}
+#nav-bar-style{
+    background-color: rgb(51, 51, 22);
+}
+
+#footer-style{
+    color: aliceblue;
+    background-color: rgb(51, 51, 22);
+}
+
+
+
+
